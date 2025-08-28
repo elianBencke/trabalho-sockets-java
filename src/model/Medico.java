@@ -8,7 +8,6 @@ public class Medico extends Pessoa {
         this.especializacao = especializacao;
     }
 
-    // Getter e Setter
     public String getEspecializacao() { return especializacao; }
     public void setEspecializacao(String especializacao) { this.especializacao = especializacao; }
 

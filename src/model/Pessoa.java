@@ -1,6 +1,5 @@
 package model;
 
-// Superclasse abstrata, já que no sistema só existirão Médicos ou Pacientes.
 public abstract class Pessoa {
     private String cpf;
     private String nome;
@@ -12,7 +11,6 @@ public abstract class Pessoa {
         this.endereco = endereco;
     }
 
-    // Getters e Setters
     public String getCpf() { return cpf; }
     public String getNome() { return nome; }
     public void setNome(String nome) { this.nome = nome; }
